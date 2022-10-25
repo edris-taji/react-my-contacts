@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  text-align: center;
+  font-family: Georgia, sans-serif, 'Times New Roman', Times;
+}
+
+.contacts {
+  padding: 50px;
+}
+
+.contacts .contact {
+  text-align: left;
+  margin: 3em auto;
+  width: 350px;
+  box-shadow: 3px 6px 5px #dcdbdb,
+    -5px -3px 5px #dcdbdb,
+    inset -20px -20px 20px #dcdbdb;
+  border-radius: 30px;
+}
+
+.contacts .contact .top {
+  padding: 40px 0 40px 30px;
+  background-color: #00b1d6;
+  color: #005c6f;
+  border-radius: 30px 30px 0 0;
+}
+
+.contacts .contact .bottom {
+  padding: 10px 0 30px 30px;
+  background-color: rgb(0, 211, 255);
+  color: #00758e;
+  border-radius: 0 0 30px 30px;
+}
+
+.contacts .contact .bottom p {
+  line-height: 2em;
+}
+
+.contacts .contact .top .img {
+  border: 5px solid #ffffff;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  margin-left: 11em;
+  margin-top: -2em;
+}
+
+.img {
+  margin-top: 20px;
+  border: 5px solid #ffffff;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
